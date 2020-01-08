@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b3024d3-f59f-4aca-be4f-2f2707ab93ad" name="Default Changelist" comment="" />
+    <list default="true" id="1b3024d3-f59f-4aca-be4f-2f2707ab93ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/IMG_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/IMG_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/IMG_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/IMG_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/IMG_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/IMG_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Kamerica1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/Kamerica2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/PageBackgroundTemplate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/styleLogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/test2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/FileUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/FileUploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload-dir/79719112_2509813342589741_6416049560988155904_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload-dir/c75354932045f08cb281ccdf1f86c273.png" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,12 +46,20 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1W6kERrB42xMt0eMV9E8KceUUD7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -26,7 +67,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\static" />
+      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources" />
+      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\templates" />
+      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\files\tmp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\static" />
+      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\templates" />
+      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\templates\Photos" />
+      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\java\hello" />
+      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -60,6 +117,8 @@
       <option name="presentableId" value="Default" />
       <updated>1578477319912</updated>
       <workItem from="1578477321374" duration="3308000" />
+      <workItem from="1578481345718" duration="650000" />
+      <workItem from="1578482305098" duration="5636000" />
     </task>
     <servers />
   </component>
@@ -71,7 +130,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
