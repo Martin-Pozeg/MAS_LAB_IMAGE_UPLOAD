@@ -1,5 +1,6 @@
 package hello;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.stream.Collectors;
 
@@ -19,7 +20,7 @@ import hello.storage.StorageService;
 
 @Controller
 public class FileUploadController {
-
+	int i=1;
 	private final StorageService storageService;
 
 	@Autowired
@@ -34,13 +35,13 @@ public class FileUploadController {
 	}
 
 	@RequestMapping(value="/test2", method=RequestMethod.GET)
-	public String test2(Model model){
+	public String test2(Model model) throws IOException {
+		storageService.delete("79719112_2509813342589741_6416049560988155904_n.jpg");
 		return "test2";
 	}
 
 	@GetMapping("/")
 	public String listUploadedFiles(Model model) throws IOException {
-
 		model.addAttribute("files", storageService.loadAll().map(
 				path -> MvcUriComponentsBuilder.fromMethodName(FileUploadController.class,
 						"serveFile", path.getFileName().toString()).build().toString())
@@ -61,7 +62,6 @@ public class FileUploadController {
 	@PostMapping("/")
 	public String handleFileUpload(@RequestParam("file") MultipartFile file,
 			RedirectAttributes redirectAttributes) {
-
 		storageService.store(file);
 		redirectAttributes.addFlashAttribute("message",
 				"You successfully uploaded " + file.getOriginalFilename() + "!");

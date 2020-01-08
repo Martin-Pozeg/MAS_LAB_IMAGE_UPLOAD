@@ -21,6 +21,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class FileSystemStorageService implements StorageService {
 
 	private final Path rootLocation;
+	int i=1;
 
 	@Autowired
 	public FileSystemStorageService(StorageProperties properties) {
@@ -41,8 +42,13 @@ public class FileSystemStorageService implements StorageService {
 								+ filename);
 			}
 			try (InputStream inputStream = file.getInputStream()) {
-				Files.copy(inputStream, this.rootLocation.resolve(filename),
+				Files.copy(inputStream, this.rootLocation.resolve(i+".jpg"),
 					StandardCopyOption.REPLACE_EXISTING);
+				if(i==5){
+					i=1;
+				}else{
+					i++;
+				}
 			}
 		}
 		catch (IOException e) {
@@ -90,6 +96,12 @@ public class FileSystemStorageService implements StorageService {
 	@Override
 	public void deleteAll() {
 		FileSystemUtils.deleteRecursively(rootLocation.toFile());
+	}
+
+	@Override
+	public void delete(String filename) throws IOException {
+		Path path=rootLocation.resolve(filename);
+		Files.delete(path);
 	}
 
 	@Override
