@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/static/uploaded/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/uploaded/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +98,7 @@
       <workItem from="1578482305098" duration="12871000" />
       <workItem from="1578661217911" duration="4007000" />
       <workItem from="1578682580918" duration="1477000" />
+      <workItem from="1578693653598" duration="1041000" />
     </task>
     <servers />
   </component>
