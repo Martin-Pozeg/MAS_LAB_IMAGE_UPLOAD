@@ -29,17 +29,6 @@ public class FileUploadController {
 	}
 
 
-	@RequestMapping(value="/index", method=RequestMethod.GET)
-	public String index(Model model){
-		return "index";
-	}
-
-	@RequestMapping(value="/test2", method=RequestMethod.GET)
-	public String test2(Model model) throws IOException {
-		storageService.delete("79719112_2509813342589741_6416049560988155904_n.jpg");
-		return "test2";
-	}
-
 	@GetMapping("/")
 	public String listUploadedFiles(Model model) throws IOException {
 		model.addAttribute("files", storageService.loadAll().map(
@@ -47,7 +36,7 @@ public class FileUploadController {
 						"serveFile", path.getFileName().toString()).build().toString())
 				.collect(Collectors.toList()));
 
-		return "uploadForm";
+		return "index";
 	}
 
 	@GetMapping("/files/{filename:.+}")
@@ -62,6 +51,8 @@ public class FileUploadController {
 	@PostMapping("/")
 	public String handleFileUpload(@RequestParam("file") MultipartFile file,
 			RedirectAttributes redirectAttributes) {
+
+		storageService.rotatePictures();
 		storageService.store(file);
 		redirectAttributes.addFlashAttribute("message",
 				"You successfully uploaded " + file.getOriginalFilename() + "!");

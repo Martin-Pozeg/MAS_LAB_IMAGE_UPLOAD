@@ -11,20 +11,20 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/FileUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/FileUploadController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/storage/FileSystemStorageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/storage/FileSystemStorageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/storage/StorageProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/storage/StorageProperties.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/storage/StorageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/storage/StorageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/test2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/FileUploadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/storage/FileSystemStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/storage/FileSystemStorageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/storage/StorageProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/storage/StorageProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/storage/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/storage/StorageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/uploaded/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/uploaded/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/uploaded/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/uploaded/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/uploaded/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/uploaded/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/uploaded/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/uploaded/5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/test2.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,22 +58,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/uploaded" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\static\uploaded" />
+      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\static\" />
+      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\static" />
+      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\templates" />
+      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\templates\Photos" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\static" />
       <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources" />
       <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\templates" />
       <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\files\tmp" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\static\" />
-      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\static\uploaded" />
-      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\static" />
-      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\templates" />
-      <recent name="C:\SpringBoot projekti\Image Upload\MAS_LAB\MAS_LAB_IMAGE_UPLOAD\complete\src\main\resources\templates\Photos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -109,7 +109,9 @@
       <updated>1578477319912</updated>
       <workItem from="1578477321374" duration="3308000" />
       <workItem from="1578481345718" duration="650000" />
-      <workItem from="1578482305098" duration="12678000" />
+      <workItem from="1578482305098" duration="12871000" />
+      <workItem from="1578661217911" duration="4007000" />
+      <workItem from="1578682580918" duration="1176000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,14 @@
 package hello.storage;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.UrlResource;
+import org.springframework.stereotype.Service;
+import org.springframework.util.FileSystemUtils;
+import org.springframework.util.StringUtils;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
@@ -9,19 +18,10 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.stream.Stream;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.Resource;
-import org.springframework.core.io.UrlResource;
-import org.springframework.stereotype.Service;
-import org.springframework.util.FileSystemUtils;
-import org.springframework.util.StringUtils;
-import org.springframework.web.multipart.MultipartFile;
-
 @Service
 public class FileSystemStorageService implements StorageService {
 
 	private final Path rootLocation;
-	int i=1;
 
 	@Autowired
 	public FileSystemStorageService(StorageProperties properties) {
@@ -42,13 +42,8 @@ public class FileSystemStorageService implements StorageService {
 								+ filename);
 			}
 			try (InputStream inputStream = file.getInputStream()) {
-				Files.copy(inputStream, this.rootLocation.resolve(i+".jpg"),
+				Files.copy(inputStream, this.rootLocation.resolve(0+".jpg"),
 					StandardCopyOption.REPLACE_EXISTING);
-				if(i==5){
-					i=1;
-				}else{
-					i++;
-				}
 			}
 		}
 		catch (IOException e) {
@@ -68,6 +63,27 @@ public class FileSystemStorageService implements StorageService {
 		}
 
 	}
+
+	@Override
+	public void rotatePictures(){
+		for(int i=4; i>-1;i--){
+			try{
+				Path file=load(Integer.toString(i)+".jpg");
+				try (InputStream inputStream = new FileInputStream(file.toString())) {
+					Files.copy(inputStream, this.rootLocation.resolve(Integer.toString(i+1)+".jpg"),
+							StandardCopyOption.REPLACE_EXISTING);
+
+				}catch (Exception e){
+					throw new StorageFileNotFoundException("Couldnt read file"+Integer.toString(i), e);
+				}
+
+			}catch (Exception e){
+				throw new StorageFileNotFoundException("Could not read file"+ Integer.toString(i), e);
+			}
+		}
+		return;
+	}
+
 
 	@Override
 	public Path load(String filename) {
