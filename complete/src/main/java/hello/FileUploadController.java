@@ -1,7 +1,8 @@
 package hello;
 
-import java.io.File;
 import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,7 +49,7 @@ public class FileUploadController {
 				"attachment; filename=\"" + file.getFilename() + "\"").body(file);
 	}
 
-	@PostMapping("/")
+	@PostMapping("/upload")
 	public String handleFileUpload(@RequestParam("file") MultipartFile file,
 			RedirectAttributes redirectAttributes) {
 
@@ -59,6 +60,20 @@ public class FileUploadController {
 
 		return "redirect:/";
 	}
+
+	@PostMapping("/upload2")
+	public ResponseEntity handleFileUpload2(@RequestParam("file") MultipartFile file,
+													RedirectAttributes redirectAttributes) throws URISyntaxException {
+		String myUrl = "http://stackoverflow.com";
+		URI myURI = new URI(myUrl);
+		storageService.rotatePictures();
+		storageService.store(file);
+		redirectAttributes.addFlashAttribute("message",
+				"You successfully uploaded " + file.getOriginalFilename() + "!");
+
+		return ResponseEntity.created(myURI).build();
+	}
+
 
 	@ExceptionHandler(StorageFileNotFoundException.class)
 	public ResponseEntity<?> handleStorageFileNotFound(StorageFileNotFoundException exc) {
