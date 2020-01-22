@@ -21,7 +21,7 @@ nav {
 	left: 0;
 	overflow-x: hidden;
 	padding-top: 15px;
-	padding-left: 5px;
+	padding-left: 8px;
 }
 
 img{
@@ -30,8 +30,8 @@ img{
 }
 
 .side {
-	width: 210px;
-	height: 135px;
+	width: 187px;
+	height: 140px;
 	border-style: outset;
 	border-color: #e6e6ff;
 	border-width: 2px;
@@ -49,7 +49,9 @@ img{
 #imgFrame {
 	width: 640px;
 	height: 480px;
-	padding-top: 80px;
+	border-style: outset;
+	border-color: #e6e6ff;
+	border-width: 2px;
 }
 
 body {
